@@ -1,3 +1,5 @@
-import '../sass/styles.scss';
+import "../styles/styles.scss";
 
-console.log("bundle.js4");
+function test() {
+    return "bundle.js";
+}
