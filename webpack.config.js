@@ -110,7 +110,8 @@ module.exports = {
     },
     optimization: optimize(),
     devServer: {
-        port: '4000',
-        hot: isDev
+        // port: '5000',
+        hot: false,
+        watchContentBase: true
     }
 }
